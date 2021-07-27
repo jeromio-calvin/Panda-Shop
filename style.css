@@ -1,0 +1,176 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/* navbar section */
+
+.nav-input{
+    color:#8a8a8a;
+	width: 500px;
+	height: 35px;
+	padding: 5px 5%;
+	border:1px solid #ccc;
+	border-radius: 27px;
+	background-color: #F1F1F1;
+	font-family:'HelveticaNeue','Arial', sans-serif;
+	letter-spacing: .8px;
+    outline: none;
+}
+
+.nav-link{
+    color:#707070;
+}
+
+@media screen and (max-width: 500px) {
+	.nav-input{
+		margin-top: 10px;
+		width: 250px;
+	}
+  } 
+
+/* Banner Section Carousel */
+
+.carousel-item{
+	background-color: #FEEAE9;
+	padding: 5%;
+	border-radius: 10px;
+}
+
+.price{
+	color:#FF136F;
+	font-size: 2.5rem;
+}
+.image-container img{
+	height: 250px;
+	width: 70%;
+}
+
+.carousel-item button{
+	padding: 5px;
+	border: 1px solid hsl(336, 68%, 53%);
+	border-radius: 3px;
+	background-image: linear-gradient(#FF589B, hsl(336, 68%, 53%) )
+} 
+
+.carousel-item button a{
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.carousel-item button a:hover{
+	color: white;
+} 
+
+
+
+
+/* Categories Section */
+
+.item-watch{
+	padding: 1rem;
+	background-image: linear-gradient( #FF9C35, #FFD019);
+}
+
+.item-bag{
+	padding: 1rem;
+	background-image: linear-gradient( #FF589B, #FF136F);
+}
+
+.item-shoes{
+	padding: 1rem;
+	background-image: linear-gradient(#4289FF, #3F07F8);
+}
+
+.cate-item{
+	border-radius: 5px;
+}
+
+.categories img{
+	width: 30%;
+}
+
+.categories h2{
+	color: white;
+} 
+
+/* Items Section */
+.items-section{
+	background-color: #F4F4F4;
+}
+
+.item-container{
+	padding: 1rem;
+	background-color: white;
+	border-radius: 15px;
+	width: 95%;
+}
+
+.item-box{
+	text-align: center;
+}
+
+.items-section img{
+	width: 65%;
+	height: 200px;
+}
+
+
+.items-section h1{
+	font-size: 24px;
+}
+
+.items-section .price{
+	font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 0;
+}
+
+.items-section button{
+	background-color: black;
+	padding: 5px 15px;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 15px 0;
+	margin-bottom: 25px;
+}
+
+.items-section a:hover{
+	color: white;
+}
+
+/* Connect Section */
+.connect{
+	padding: 100px 0;
+}
+.connect-container{
+	text-align: center;
+	padding: 120px 30px;
+	background-color: #FEEAE9;
+	border-radius: 10px;
+}
+
+input[type="text"]{
+	font-size: 1.5rem;
+	width: 500px;
+	color: #757575;
+	border-radius: 4px;
+	padding:7px;
+	padding-left: 30px;
+	outline: none;
+	border: 1px solid white;
+}
+
+input[type="submit"]{
+	background-image: linear-gradient(#FF589B, #FF136F);
+	font-size: 1.5rem;
+	color: white;
+	font-weight: 400;
+	border-radius: 4px;
+	padding:7px;
+	outline: none;
+	border: 1px solid white;
+}
